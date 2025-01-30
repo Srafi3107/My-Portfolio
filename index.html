@@ -82,7 +82,7 @@
  <div id="project">
     <div class="container">
         <h1 class="sub-title">My Project</h1>
-        <div class="project-list">
+        <div class="project-list" id="projectList">
             <div class="work">
                 <img src="work-1.jpg">
                 <div class="layer">
@@ -107,9 +107,31 @@
                     <a href="https://github.com/Srafi3107/OnlineBankSystem"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
+            <!-- Hidden by default -->
+            <div class="work more-project" style="display: none;">
+                <img src="work-4.jpeg">
+                <div class="layer">
+                    <h3>CrimeTrack: Crime Management and Reporting System</h3>
+                    <p>Web application developed using Node.js, Next.js, PostgreSQL, and Tailwind CSS, aimed at providing a platform for reporting and managing crime-related data.</p>
+                    <a href="https://github.com/Srafi3107/Crime-management-and-reporting-system"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work more-project" style="display: none;">
+                <img src="work-5.jpg">
+                <div class="layer">
+                    <h3>To-Do app</h3>
+                    <p>To-Do App built using HTML, CSS, and JavaScript. It allows users to add, remove</p>
+                    <a href="https://github.com/Srafi3107/TODO-APP"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
         </div>
+        <a href="javascript:void(0);" class="btn" id="loadMoreBtn">Load More</a>
+    </div>
+</div>
+
+<div></div>
          
-          <a href="#" class="btn">See More</a>
+         
 
            <!---------------------contact------------------------->  
           <div id="contact">
@@ -136,6 +158,8 @@
                 </div>
             </div>
           </div>
+
+          <button class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
 
           <div class="copyright">
             <p>Copyright © SHR, 2024</p>
@@ -175,5 +199,50 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+
+      <script>
+    document.getElementById('loadMoreBtn').addEventListener('click', function() {
+    const moreProjects = document.querySelectorAll('.more-project');
+    const btn = this;
+
+    if (btn.textContent === "Load More") {
+       
+        moreProjects.forEach(function(project) {
+            project.style.display = 'block';
+        });
+       
+        btn.textContent = "Load Less";
+    } else {
+     
+        moreProjects.forEach(function(project) {
+            project.style.display = 'none';
+        });
+       
+        btn.textContent = "Load More";
+    }
+});
+      </script>
+
+      <script>
+
+        window.onscroll = function() {
+        var backToTopBtn = document.querySelector('.back-to-top');
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopBtn.classList.add('show');
+        } else {
+        backToTopBtn.classList.remove('show');
+       }
+   };
+
+
+       function scrollToTop() {
+       window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+      </script>
+    
+    
 </body>
 </html>
