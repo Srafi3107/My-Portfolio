@@ -1,4 +1,4 @@
-This repository contains my personal portfolio showcasing selected projects, skills, and achievements. Built using [insert technologies like React, HTML/CSS etc.], it highlights my experience in software development, machine learning, and UI/UX design.
+This repository contains my personal portfolio showcasing selected projects, skills, and achievements. Built using insert technologies like React, HTML/CSS etc., it highlights my experience in software development, machine learning, and UI/UX design.
 
 🔧 Features:
 
