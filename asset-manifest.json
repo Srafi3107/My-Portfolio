@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.f44091f0.js",
+    "static/js/453.6264690d.chunk.js": "/static/js/453.6264690d.chunk.js",
+    "static/media/home.png": "/static/media/home.d9a1e0017aae6596f117.png",
+    "static/media/Shahriar_Hossain_Rafi_CV.pdf": "/static/media/Shahriar_Hossain_Rafi_CV.3ea3fe12a5d353bbce90.pdf",
+    "static/media/aiub.png": "/static/media/aiub.a0a1a0038f20beafad44.png",
+    "static/media/drmc.png": "/static/media/drmc.6af835737fa01f4d0729.png",
+    "static/media/rafi.jpg": "/static/media/rafi.3355799b62b49946a390.jpg",
+    "static/media/gmail.jpg": "/static/media/gmail.5fc23127012ae7b637fb.jpg",
+    "static/media/facebook.png": "/static/media/facebook.7d8b7e2662982409ad9b.png",
+    "static/media/github.png": "/static/media/github.1ff6d9646165b7f34af9.png",
+    "static/media/linkedin.webp": "/static/media/linkedin.fe4dbe4730a4a1fd82cf.webp",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.f44091f0.js.map": "/static/js/main.f44091f0.js.map",
+    "453.6264690d.chunk.js.map": "/static/js/453.6264690d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f44091f0.js"
+  ]
+}
