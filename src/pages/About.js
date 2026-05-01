@@ -179,7 +179,7 @@ function About() {
           className="card" style={{ textAlign: "center", background: "linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, transparent 100%)" }}
         >
           <h2 style={{ margin: "0 0 12px 0" }}>LeetCode Profile</h2>
-          <p style={{ fontSize: "48px", fontWeight: "800", margin: "10px 0", color: "var(--primary)" }}>57</p>
+          <p style={{ fontSize: "48px", fontWeight: "800", margin: "10px 0", color: "var(--primary)" }}>61</p>
           <p style={{ margin: "0 0 24px 0", color: "var(--text-dim)" }}>Problems Solved</p>
           <a href="https://leetcode.com/u/ShahriarRafi/" target="_blank" rel="noreferrer" className="btn-primary" style={{ width: "100%" }}>View Profile</a>
         </motion.section>

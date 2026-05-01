@@ -12,21 +12,6 @@ function Projects() {
       liveLink: "https://finediningbd.netlify.app/",
     },
     {
-      title: "Weather App",
-      description:
-        "A sleek, fully responsive Weather App built with React and Tailwind CSS, delivering real-time weather data via OpenWeather API with a beautiful UI and smooth experience.",
-      techs: ["React.js", "Tailwind CSS", "OpenWeather API"],
-      codeLink: "https://github.com/Srafi3107/WeatherCast",
-      liveLink: "https://weathercastrafi.netlify.app/",
-    },
-    {
-      title: "HospitalPro",
-      description:
-        "A Java-based Hospital Management System with a layered architecture. Manages doctors, patients, and tests with CSV persistence and a robust console-based interface.",
-      techs: ["Java", "OOP", "CSV", "Console I/O"],
-      codeLink: "https://github.com/Srafi3107/Hospital_System",
-    },
-    {
       title: "MRF Car Rental",
       description:
         "A full-stack Car Rental Management System featuring secure role-based dashboards, automated rental cost calculation, and real-time vehicle availability tracking with persistent inventory management.",
