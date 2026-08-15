@@ -4,6 +4,7 @@ import myPhoto from "../assets/rafi.jpg";
 import schoolLogo from "../assets/drmc.png";
 import collegeLogo from "../assets/drmc.png";
 import uniLogo from "../assets/aiub.png";
+import IITLogo from "../assets/iit.png";
 import cvFile from "../assets/Shahriar_Hossain_Rafi_CV.pdf";
 
 const SkillBar = ({ name, level, color }) => {
@@ -125,6 +126,7 @@ function About() {
           <h2 style={{ fontSize: "28px", marginBottom: "32px" }}>Education</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
             {[
+              { logo: IITLogo, title: "IIT", degree: "Executive Masters in Information Technology", date: "2025 - 2026" },
               { logo: uniLogo, title: "AIUB", degree: "BSc in Computer Science and Engineering", date: "2020 - 2023" },
               { logo: collegeLogo, title: "DRMC", degree: "Higher School Certificate", date: "2019" },
               { logo: schoolLogo, title: "DRMC", degree: "Secondary School Certificate", date: "2017" },
@@ -179,7 +181,7 @@ function About() {
           className="card" style={{ textAlign: "center", background: "linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, transparent 100%)" }}
         >
           <h2 style={{ margin: "0 0 12px 0" }}>LeetCode Profile</h2>
-          <p style={{ fontSize: "48px", fontWeight: "800", margin: "10px 0", color: "var(--primary)" }}>61</p>
+          <p style={{ fontSize: "48px", fontWeight: "800", margin: "10px 0", color: "var(--primary)" }}>155</p>
           <p style={{ margin: "0 0 24px 0", color: "var(--text-dim)" }}>Problems Solved</p>
           <a href="https://leetcode.com/u/ShahriarRafi/" target="_blank" rel="noreferrer" className="btn-primary" style={{ width: "100%" }}>View Profile</a>
         </motion.section>

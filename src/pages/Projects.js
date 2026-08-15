@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 function Projects() {
   const projects = [
     {
-      title: "FineDiningBD",
+      title: "EduConnect",
       description:
-        "FineDiningBD is a modern and user-friendly restaurant landing page designed to elevate the dining experience. Built with React, it offers an elegant interface combining aesthetics with functionality.",
-      techs: ["React.js", "Vanilla CSS", "HTML5"],
-      codeLink: "https://github.com/Srafi3107/FineDiningBD",
-      liveLink: "https://finediningbd.netlify.app/",
+        "EduConnect is a modern and user-friendly educational platform designed to enhance the learningEduConnect is a comprehensive web-based platform designed to bridge the gap between students (or guardians) and qualified home tutors. experience. Built with React, it offers an elegant interface combining aesthetics with functionality.",
+      techs: ["PHP ", "MySQL", "HTML5"],
+      codeLink: "https://github.com/Srafi3107/EduConnect",
+  
     },
     {
       title: "MRF Car Rental",
@@ -17,6 +17,13 @@ function Projects() {
         "A full-stack Car Rental Management System featuring secure role-based dashboards, automated rental cost calculation, and real-time vehicle availability tracking with persistent inventory management.",
       techs: ["Java", "OOP", "React", "Console I/O"],
       codeLink: "https://github.com/Srafi3107/CarRental",
+    },
+     {
+      title: "SauceDemo QA Automation",
+      description:
+        "SauceDemo QA Automation: End-to-end testing of login, dynamic product selection, cart validation, checkout, and known defect scenarios using Playwright and TypeScript with Page Object Model (POM).",
+      techs: ["Playwright", "TypeScript", "Node.js"],
+      codeLink: "https://github.com/Srafi3107/saucedemo-test",
     },
   ];
 
