@@ -1,4 +1,4 @@
-Full-stack SQA and Software Engineering portfolio featuring custom Java HTTP backend services, React web applications, and Machine Learning models. Includes comprehensive test suites, automated API validation (Postman/REST), and Agile documentation.
+ SQA and Software Engineering portfolio featuring custom Java HTTP backend services, React web applications, and Machine Learning models. Includes comprehensive test suites, automated API validation (Postman/REST), and Agile documentation.
 
 Alternative Micro-Descriptions (Choose based on focus):
 
